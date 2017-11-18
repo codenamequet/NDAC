@@ -1,0 +1,48 @@
+body, html {
+    height: 100%;
+
+}
+@font-face{
+font-family: "BebasNeue";
+src:url(fonts/BebasNeue.ttf) format("truetype");
+}
+.bg { 
+    background: url(ndaclogo.jpg) no-repeat center fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+#enterButton {
+    position: fixed;
+    bottom: 100px;
+    right: 700px;
+}
+/* Original copy of the main container
+.main {
+    background: white;
+    width: 100%;
+    height: 600px;
+    margin-left: -8px;
+}
+*/
+/* The container that the site will be inside of */
+/* Main page CSS */
+body, html {
+    height: 100%;
+
+}
+@font-face{
+font-family: "BebasNeue";
+src:url(fonts/BebasNeue.ttf) format("truetype");
+}
+.bg { 
+    background: url(ndaclogo.jpg) no-repeat center fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+#enterButton {
+    position: fixed;
+    bottom: 100px;
+    right: 700px;
+}
