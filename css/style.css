@@ -1,11 +1,11 @@
 body, html {
     height: 100%;
-    font-family: "Ostrich Sans", "Open Sans", "sans-serif";
+    font-family: "Ostrich Sans", sans-serif;
 }
-@font-face {
+/*@font-face {
 font-family: "BebasNeue";
-src:url(fonts/BebasNeue.ttf) format("truetype");
-}
+src: url("fonts/BebasNeue.ttf") format("truetype");
+}*/
 .bg { 
     background: url(ndaclogo.jpg) no-repeat center fixed;
     background-size: cover;
@@ -16,4 +16,7 @@ src:url(fonts/BebasNeue.ttf) format("truetype");
     position: fixed;
     bottom: 100px;
     right: 700px;
+}
+footer {
+    margin: 25px auto 0;
 }
