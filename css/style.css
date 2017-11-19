@@ -6,16 +6,13 @@ body, html {
 font-family: "BebasNeue";
 src: url("fonts/BebasNeue.ttf") format("truetype");
 }*/
-.bg { 
-    background: url(ndaclogo.jpg) no-repeat center fixed;
+.landing-page{ 
+    background: url("../photos/ndaclogo.jpg") no-repeat center fixed;
     background-size: cover;
-    height: 100%;
-    width: 100%;
 }
 #enterButton {
     position: fixed;
-    bottom: 100px;
-    right: 700px;
+    margin: 600px 600px;
 }
 footer {
     margin: 25px auto 0;
